@@ -1,0 +1,106 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Elements */
+html {
+  font-size: 62.5%; /* font-size 1em = 10px on default browser settings */
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#img {
+  display: block;
+  margin: auto;
+  height: 128px;
+  width: 128px;
+  padding: 2rem;
+}
+
+#canvas {
+  display: block;
+  margin: 2rem auto;
+  width: 540px;
+  height: 540px;
+}
+
+.typescript-todo-list {
+  display: flex;
+  flex-direction: column;
+  background-color: #645cbb;
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+  padding: 3rem;
+  align-items: center;
+}
+
+.typescript-todo-list-title {
+  margin-top: 5rem;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 0.1rem 0.1rem black;
+  text-decoration: underline;
+}
+
+.typescript-todo-list-form {
+  display: flex;
+  align-content: center;
+  padding: 1rem 0;
+}
+.typescript-todo-list-form-input {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.typescript-todo-list-form-button {
+  width: 7rem;
+  margin-left: 0.2rem;
+  font-size: 2rem;
+  background-color: transparent;
+  color: #645cbb;
+  border: none;
+  background-color: white;
+}
+
+.typescript-todo-list-list {
+  min-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 0.1rem solid black; */
+  list-style: none;
+}
+
+.todo-list-item {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  width: 46rem;
+}
+
+.todo-list-item:nth-child(odd) {
+  background-color: #ebc7e6;
+  color: #645cbb;
+}
+.todo-list-item:nth-child(even) {
+  background-color: #a084dc;
+  color: #03001c;
+}
+
+/* Hide the browser's default checkbox */
+.todo-list-item input {
+  height: 3rem;
+  width: 3rem;
+  margin: 1rem;
+}
+
+/* Create a custom checkbox */
+.todo-list-item label {
+  font-size: 3rem;
+}

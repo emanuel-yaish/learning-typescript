@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="/index.css" />
+    <title>TypeScript Todo List</title>
+    <script type="module" src="/dist/index.js" defer></script>
+  </head>
+  <body>
+    <div class="typescript-todo-list">
+      <h1 class="typescript-todo-list-title">TypeScript Todo List</h1>
+      <form class="typescript-todo-list-form" id="new-task-form">
+        <input
+          placeholder="Add new task"
+          class="typescript-todo-list-form-input"
+          type="text"
+          id="new-task-title"
+        />
+        <button class="typescript-todo-list-form-button" type="submit">
+          Add
+        </button>
+      </form>
+      <ul class="typescript-todo-list-list" id="list"></ul>
+    </div>
+  </body>
+</html>
