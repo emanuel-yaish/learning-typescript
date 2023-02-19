@@ -1,0 +1,23 @@
+.hangman-keyboard {
+  width: 55%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+  gap: 2rem;
+}
+
+.hangman-keyboard-button {
+  background-color: transparent;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.hangman-keyboard-button:hover {
+  background-color: aquamarine;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hangman-keyboard {
+    width: 80%;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,14 @@
+.hangman-word {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.letter-container {
+  border-bottom: solid 0.2rem black;
+  text-align: center;
+  width: 2rem;
+  font-size: 2rem;
+  margin: 1rem;
+}
